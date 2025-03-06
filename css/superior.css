@@ -1,0 +1,63 @@
+
+header{
+    justify-content: center;
+    display: flex;
+}
+
+i
+{
+    cursor: pointer;
+}
+
+ul > li:first-child {
+    margin-top: 40px;
+}
+
+ul #li-menu{
+    color: rgb(0, 119, 255);
+}
+
+ul li {
+    z-index: 3;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+ul li{
+    margin-top: 40px;
+}
+
+.closeBar{
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.openBar{
+    position: absolute;
+    left: 0;
+    display: none;
+    z-index: 3;
+    height: 100vh;
+    width: 10vw;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.185);
+    transition: opacity 0.5s ease-in-out;
+}
+
+.openBar > i {
+
+    font-size: 1.6rem;
+    margin: 5px;
+}
+
+.total{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+

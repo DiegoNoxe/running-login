@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <title>Barry Allen</title>
+    <link rel="shortcut icon" href="assets/midia/running.png" type="image/x-icon">
+    <link rel="stylesheet"   href="css/superior.css">
+    <link rel="stylesheet"   href="css/styles.css">
+    <link rel="stylesheet"   href="css/responsividade.css">
+</head>
+<body>
+    <header>        
+  
+      <div class="closeBar">
+        <i onclick="change()" class="fa-solid fa-bars" style="color: #000000;"></i>
+       </div>  
+   
+       <div class="openBar">
+           <i onclick="change()" class="fa-solid fa-bars" style="color: #000000;"></i>
+           <ul>
+               <li>Diego's <a id="li-menu" target="_blank" href="#">Linkedin</a></li>
+               <li>Diego's <a id="li-menu" target="_blank" href="#">Github</a></li>
+               <li>Diego's <a id="li-menu" target="_blank" href="#">Email</a></li>
+               <li>Follow me on <a id="li-menu" target="_blank" href="#">github</a>!</li>
+           </ul>
+        </div>
+
+          <div class="imagem"><img src="assets/midia/guyRunning.png" alt=""></div>
+    </header>
+
+       <div class="lemmese">
+            <h1>Run today, conquer tomorrow.<br> Are you in or out?</h1>
+       </div>
+
+    <div class="container">
+        <video src="assets/midia/womanRunning.mp4" muted loop autoplay class="midia"></video>
+       <div class="sign-in"> 
+            <div class="top">
+                <h1>Sign in</h1>
+                <img src="assets/midia/guyRunning.png" alt="">
+            </div>
+         <form action="#">
+              <div class="field">
+               <input id="input-email" type="email" placeholder="Email" required autocomplete="on">
+              </div>
+
+              <div class="field">
+               <input id="input-password" type="password" placeholder="Password" required >
+              </div>
+
+              <div class="forgot">
+                <a  href="#">Forgot your password?</a>
+              </div>
+
+              <button type="submit">Sign in</button>
+
+         </form>
+         </div>
+    </div>
+
+    <div class="total">
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
